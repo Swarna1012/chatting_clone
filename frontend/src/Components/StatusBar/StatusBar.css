@@ -1,0 +1,62 @@
+/* .statusbar_container{
+    display: flex;
+    height:120px;
+    width: 815px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 25px;
+    overflow-x: scroll;
+}
+.statusbar_container::-webkit-scrollbar{
+    display: none;
+}
+.statusbar_status{
+    min-width: 55px;
+    min-height: 55px;
+    border: 3px solid #DF3968;
+}
+.status{
+    margin: 25px 10px;
+}
+.statusbar_text{
+    font-size: 12px;
+    text-align: center;
+    max-width: 60px;
+    overflow-x: hidden;
+} */
+
+
+.statusbar_title{
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.statusbar_container{
+    position: relative;
+    color: white;
+    display: flex;
+    height:120px;
+    width: 1215px;
+    background-color: #212121;
+    margin-top: 10px;
+    overflow-x: scroll;
+}
+.statusbar_container::-webkit-scrollbar{
+    display: none;
+}
+.statusbar_status{
+    min-width: 80px;
+    min-height: 80px;
+    border: 3px solid #DF3968;
+}
+.status{
+    margin: 15px 10px;
+}
+.statusbar_text{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    max-width: 90px;
+    overflow-x: hidden;
+}

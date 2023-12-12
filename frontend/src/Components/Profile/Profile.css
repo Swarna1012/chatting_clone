@@ -1,0 +1,105 @@
+.profile_container{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.profile_img_name{
+    margin-bottom: 40px;
+}
+.profile_pic{
+    width: 350px;
+    border-radius: 50%;
+}
+.edit_button{
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.grid_follows{
+    justify-content: center;
+    padding: 20px;
+}
+
+.follow_content{
+    display: flex;
+}
+.follow_username{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.follow_button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.posts{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-count: 33%;
+    column-count: 33%;
+    padding: 0 12px;
+}
+
+.posts .posts_posts{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.posts_img{
+    border-radius: 20px;
+}
+
+
+/* pop ups */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+
+.profile_follows{
+    margin-bottom: 30px;
+}
+
+.follow_titles{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}

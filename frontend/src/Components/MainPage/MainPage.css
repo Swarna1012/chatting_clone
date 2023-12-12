@@ -1,0 +1,36 @@
+.mainpage_container{
+    display: flex;
+    margin-left: 45px; 
+    margin-top: 70px;
+    color: white;
+}
+
+.feed_title{
+    margin-left: -40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mainpage_divider{
+    border: 1.5px solid black;
+    width: 320px;height: 0px;
+    margin-top: 40px;
+}
+
+.mainpage_uploadicon{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    padding-left: 20px;padding-right: 20px;
+    padding-top: 20px;
+    /* padding: 20px; */
+}
+
+.fileupload > input{
+    display: none;
+}
+
+.upload_text{
+    margin-top: 10px;
+    margin-left: 295px;
+}
